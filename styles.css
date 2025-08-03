@@ -1,0 +1,42 @@
+
+body {
+  font-family: "Tajawal", sans-serif;
+  background-color: #f9fafb;
+  direction: rtl;
+}
+input,
+select,
+button {
+  font-family: inherit;
+}
+button:hover {
+  opacity: 0.9;
+}
+ul li {
+  background-color: #fff;
+  padding: 6px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+}
+#admin-panel ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1f2937;
+    color: #f9fafb;
+  }
+  input,
+  select,
+  button {
+    background-color: #374151;
+    color: #f9fafb;
+    border-color: #4b5563;
+  }
+  ul li {
+    background-color: #374151;
+    border-color: #4b5563;
+  }
+}
